@@ -1,2 +1,5 @@
-# geekbrain_prof_layout
-Geekbrain - курс "Профессиональная верстка"
+**Baranchikov Alexander**  
+Курс - Профессиональная верстка
+[https://geekbrains.ru/](URL)
+
+Январь 2021 
