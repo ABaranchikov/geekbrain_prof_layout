@@ -1,0 +1,65 @@
+.mobile_menu_container {
+    position: absolute;
+    top: 79px;
+    right: 0;
+    width: 230px;
+    height:  764px;
+    background: #FFF;
+    padding: 37px 0 0 34px;
+    box-sizing: border-box;
+    display: none;
+}
+
+.mobile_menu_close_btn {
+  background-image: url(../img/menu/Cross.svg);
+  background-repeat: no-repeat;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  border: none;
+  background-color:#FFF;
+}
+
+.mobile_menu_close_btn:hover {
+  background-image: url(../img/menu/Cross_hover.svg);
+}
+
+.mobile_menu_title{
+  display: block;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+
+.mobile_menu_heading{
+  margin: 24px 0 12px 0;
+  display: block;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #F16D7F;
+  text-transform: uppercase;
+  list-style-type: none;
+}
+
+.mobile_menu_list {
+  padding: 0;
+}
+.mobile_menu_list li {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #6F6E6E;
+  list-style-type: none;
+  padding: 0;
+  margin: 11px 0 0 0;
+  padding: 0 0 0 24px;
+}
