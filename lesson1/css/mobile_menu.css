@@ -53,13 +53,20 @@
   padding: 0;
 }
 .mobile_menu_list li {
+  list-style-type: none;
+  margin: 11px 0 0 0;
+  padding: 0 0 0 24px;
+}
+
+.mobile_menu_list_link {
+  text-decoration: none;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 17px;
   color: #6F6E6E;
-  list-style-type: none;
-  padding: 0;
-  margin: 11px 0 0 0;
-  padding: 0 0 0 24px;
+}
+
+.mobile_menu_list_link:hover {
+  color: #F16D7F;
 }
