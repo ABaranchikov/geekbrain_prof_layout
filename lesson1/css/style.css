@@ -1420,3 +1420,185 @@ input[type="number"] {
   background: transparent;
  }
 /* ======= end shopping-cart ======= */ 
+
+/* ======= start registration ======= */ 
+.registration {
+  display: flex;
+  margin: 64px 230px 96px 230px;
+}
+
+.registration-form {
+  
+}
+
+.registration-form-fieldset {
+  border: none;
+  padding: 0;
+}
+
+.registration-form-fieldset input:nth-child(2) {
+  margin: 0 0 21px 0;
+}
+.registration-form fieldset:nth-child(2) {
+  margin: 31px 0 33px 0;
+}
+
+.registration-form-legend {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;  
+  color: #222222;
+  text-transform: capitalize;
+  margin: 0 0 20px 0;
+  padding: 0;
+}
+
+.registration-form-legend span {
+  text-transform: none;
+}
+
+.registration-form-input {
+  width: 360px;
+  height: 45px;
+  border: 1px solid #A4A4A4;
+  box-sizing: border-box;
+  padding: 0 0 0 16.7px;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 16px;
+  color: black;
+  outline: none;
+}
+
+.registration-form-radio {
+  display: none;
+}
+
+.registration-form-radio-title {
+  position: relative;
+  padding: 0 0 0 27px;
+  text-transform: capitalize;
+}
+
+.registration-form-radio-title::before {
+  content: "";
+  display: block;
+  width: 17px;
+  height: 17px;
+  border: 1px solid #A4A4A4;
+  border-radius: 50%;
+  position: absolute;
+  top: -4px;
+  left: 4px;
+}
+
+.registration-form-radio:checked + label::before {
+  background: #B1B1B1;
+  box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.21);
+}
+
+.registration-form-input::placeholder{
+  color: #B1B1B1;
+}
+
+.registration-form-input:focus {
+  border: 2px solid #F16D7F;
+}
+
+.registration-form-radio-title {
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 13px;
+  color: #000000;
+  margin: 0 20px 0 0;
+}
+
+.registration-form-txt {
+  width: 359px;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 16px;
+  color: #B1B1B1;
+}
+
+.registration-form-btn {
+  width: 167px;
+  height: 50px;
+  background: #F16D7F;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  border: none;
+  outline: none;
+  margin: 39px 0 0 0;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.registration-form-btn svg {
+  fill: white;
+  margin: 0 0 0 20px;
+}
+
+.registration-form-btn:hover {
+  color: #F16D7F;
+  background: #FFFFFF;
+  border: 1px solid #F16D7F;
+}
+
+.registration-form-btn:hover svg {
+  fill: #F16D7F;
+}
+
+.registration-form-btn:active {
+  background: transparent;
+  border: none;
+  color: #FFFFFF;
+}
+
+.registration-form-btn:active svg {
+  fill: #FFFFFF;
+}
+
+.registration-info {
+  margin: 0 0 0 128px;
+}
+
+.registration-info-title {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.registration-info-txt {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  margin: 22px 0;
+}
+
+.registration-info-list {
+  padding: 0;
+  margin: 0;
+  list-style-image: url(../img/reg-list.svg);
+}
+
+.registration-info-list li{
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  margin: 0 0 16px 25px;
+  padding: 0 0 0 22px;
+}
+
+.registration-info-list li:last-child{
+  margin: 0 0 0 25px;
+}
+
+/* ======= end registration ======= */ 
